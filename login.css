@@ -1,0 +1,109 @@
+#loginborder{
+	border: solid grey 70px;
+	
+	
+}
+#heading{
+	
+	text-align:center;
+	margin-top:-190px;
+	font-size:35px;
+}
+#afterheading
+{ 
+text-align:center;
+	margin-top:-50px;
+	font-size:22px;
+}
+#login
+{
+	  background-color:green;
+	  width:500px;
+	  text-align:center;
+	  float:left;	
+	  margin-left:450px;
+	  height:500px;
+	  display:table;
+	  font-size:26px;
+	  padding-top:50px;
+		text-decoration:none;
+}
+#login input
+{
+	display:table-cell;
+	padding:2px;
+}
+.inputbox
+{
+	border:none;
+	border-bottom:solid black 1px;
+	background:transparent;
+	height:40px;
+	outline:none;
+	font-size:16px;
+}
+.icon
+{
+	width:100px;
+	height:100px;
+	border-radius:10%;
+	position:absolute;
+	left:660px;
+	top:170px;
+	text-align:center;
+	
+}
+.button
+{
+	 height:40px;
+	 background:red;
+	 color:white;
+	 font-size:18px;
+	 width:150px;
+	 border-radius:10px;
+	 box-shadow:inset 0 0 15px black;
+	 background:linear-gradient(blue,yellow);
+}
+
+.button:hover
+{
+	color:black;
+	animate:bounce;
+}
+.forget
+{
+	text-decoration:none;
+}
+#nav
+{
+	height:35px;
+	font-size:25px;
+	margin
+	
+}
+#nav ul
+{
+	list-style-type:none;
+	text-align:center;
+		margin-top:-50px;
+		margin-right:-880px;
+}
+#nav li
+{
+	display:inline;
+	padding:15px;
+	vertical-align:middle;
+	float:top;
+	margin-top:-1000px;
+}
+#nav a
+{
+	text-decoration:none;
+	padding:4px 4px 4px 4px;
+	vertical-align:middle;
+}
+#nav a:hover
+{
+	color:black;
+	background-color:white;
+}

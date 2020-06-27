@@ -1,0 +1,66 @@
+<html>
+<head>
+<link rel="stylesheet" href="message2.css">
+<link rel="stylesheet" href="jqueryui/jquery-ui.css">
+<link rel="stylesheet" href="jqueryui/jquery-ui.structure.css">
+<link rel="stylesheet" href="jqueryui/jquery-ui.theme.css">
+<script>
+function myFunction() {
+  alert("Page is loaded");
+}
+</script>
+</head>
+<body onload="myFunction()">
+<div id="border">
+</div>
+<div id="heading">
+<h1> FreeDr Services</h1>
+</div>
+<div id="afterheading">
+<h1> www.FreeDr.com</h1>
+</div>
+<div id="signup">
+<img src="icon.png" class="icon"><br>
+<h1>Create Your Account</h1>
+Full Name<br> <input type="txt"class="inputbox" id="fname" required><br><br>
+E-mail<br> <input type="email" class="inputbox" id="email" required><br><br>
+Password <br><input type="password" class="inputbox" id="password" required><br><br>
+Confirm Password <br><input type="password" class="inputbox" id="cpassword" required><br><br>
+Gender<br><select id="gender"> 
+<option values="m">Male</option>
+<option values="f">Female</option>
+<option values="O">Others</option>
+</select><br><br>
+Phone No. <br><input type="tel" class="inputbox" id="phone" required><br><br>
+State <br><input type"txt" class="inputbox" id="states"required></br></br>
+
+<button class="button">Sign Up</button>
+
+
+</br><a href="login.html" class="login">Already Have a Account</a>
+</div>
+<div id="nav">
+	<ul>
+	<li><a href=>Home</a></li>
+	<li><a href="">About</a></li>
+	<li><a href="">Team</a></li>
+	<li><a href="">Contact</a></li>
+	</ul>
+</div>
+
+<script src="jquery-3.5.1.js"></script>
+<script src="jqueryui/jquery-ui.js"></script>
+<script>
+
+$(document).ready(function()
+{
+$("#states").autocomplete({source:["Rajasthan","Delhi","Kerala","Tamil Nadu","Karnataka","Andra Pradesh","Telangana","Goa","Maharashtra","Gujarat","Madya Pradesh","Haryana","Punjab","Uttar Pardesh","Uttarakhand","Himachal Pradesh","Odisa","Jharkhand","Chattisgarh","Bihar","Sikkim","Tripura","Manipur","Meghalaya","Mizoram","Assam","Arunachal Pradesh","Nagaland","West Bengal"]});
+$("#gender").selectmenu({width:115},{height:15});
+$("window").load(function() {
+      alert("window load occurred!");
+});
+$("#nav").accordion();
+</script>
+
+</body>
+</html>
